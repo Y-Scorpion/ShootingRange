@@ -1,0 +1,6 @@
+::ffff:127.0.0.1 - - [09/Jan/2021:15:39:28 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Jan/2021:15:39:28 +0000] "GET /stylesheets/sea-404page.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Jan/2021:15:43:11 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Jan/2021:15:43:11 +0000] "GET /stylesheets/sea-404page.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Jan/2021:15:44:54 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+::ffff:127.0.0.1 - - [09/Jan/2021:15:44:54 +0000] "GET /stylesheets/sea-404page.css HTTP/1.1" 304 - "http://127.0.0.1:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"

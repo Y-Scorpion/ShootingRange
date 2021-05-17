@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--    <link rel='stylesheet' href='./stylesheets/style.css' />-->
+<!--    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' />-->
+    <meta charset="utf-8">
+    <title></title>
+    <link rel='stylesheet' href="/stylesheets/bootstrap.min.css">
+    <script type="text/javascript" src="/javascripts/jquery-3.5.1.min.js"></script>
+    <link rel='stylesheet' href='/stylesheets/navigation.css' />
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+    <script type="text/javascript" src="/javascripts/navigation.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/slide.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/slide-style.css" />
+  </head>
+
+  <body id="page">
+    <div class="container-fluid">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a id="len1" class="hoverable" href="/">首页</a></li>
+            <li><a id="len2" class="hoverable" href="#">靶场</a></li>
+            <li><a id="len3" class="hoverable" href="#">关于</a></li>
+<!--            <li><a id="len4" class="hoverable" href="#">登录</a></li>-->
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="what-the-hell-is-this">
+        <div class="page-title">
+            <h2 id="page_h2"></h2>
+            <p class="lead">
+            </p>
+        </div>
+    </div>
+<!--    <script type="text/javascript" color="255,0,0" pointColor="255,0,0" opacity='0.7' zIndex="-2" count="100" src="./javascripts/canvas-nest.js"></script>-->
+<!--    <script type="text/javascript" src="/javascripts/canvas-nest.umd.js"></script>-->
+    <div id="github-iframe"></div>
+    <script type="text/javascript" color="160,30,240" pointColor="250,250,250"  count="150" src="/javascripts/canvas-nest.js"></script>
+  <div id="colude_page">
+
+  </div>
+  </body>
+  <script type="text/javascript">
+      $("#len2").click(function () {
+          $("#page_h2").html('肆意 翱翔')
+          $('.lead').html("疯狂 ！疯狂！疯狂！ 狙击吧!!")
+          $('.lb-album').html();
+          $('#home_page').hide();
+          $('#jiekou_page').show();
+          $('.lb-album').html(
+              " <li>\n" +
+              "        <a href=\"#image-15\">\n" +
+              "          <img src=\"images/thumbs/15.jpg\" alt=\"image15\">\n" +
+              "          <span>Sql注入</span>\n" +
+              "        </a>\n" +
+              "        <div class=\"lb-overlay\" id=\"image-15\" >\n" +
+              "          <a href=\"#\" >\n" +
+              "          <img src=\"images/full/15.jpg\" alt=\"image15\" href=\"#\"/>\n" +
+              "          </a>\n" +
+              "          <div >\n" +
+              "           <h3>bal·le·ri·na <span>/ˌSQL э inject/</span></h3>\n" +
+              "           <a href='http://localhost/sql' target='_blank'><p>点击这里进入靶场←</p></a>\n" +
+              "           <b>SQL注入靶场：分四个等级，共75个关卡</b>\n" +
+              "          </div>\n" +
+              "        </div>\n" +
+              "        </a>\n" +
+              "      </li>"+
+              " <li>\n" +
+              "        <a href=\"#image-14\">\n" +
+              "          <img src=\"images/thumbs/14.jpg\" alt=\"image14\">\n" +
+              "          <span>Xss注入</span>\n" +
+              "        </a>\n" +
+              "        <div class=\"lb-overlay\" id=\"image-14\" >\n" +
+              "          <a href=\"#\" >\n" +
+              "          <img src=\"images/full/14.jpg\" alt=\"image14\" href=\"#\"/>\n" +
+              "          </a>\n" +
+              "          <div >\n" +
+              "           <h3>bal·le·ri·na <span>/ˌXss э inject/</span></h3>\n" +
+              "           <a href='http://localhost/sql' target='_blank'><p>点击这里进入靶场←</p></a>\n" +
+              "           <b>Xss注入靶场：共20个关卡</b>\n" +
+              "          </div>\n" +
+              "        </div>\n" +
+              "        </a>\n" +
+              "      </li>"+
+              " <li>\n" +
+              "        <a href=\"#image-13\">\n" +
+              "          <img src=\"images/thumbs/13.jpg\" alt=\"image13\">\n" +
+              "          <span>DVWA靶场</span>\n" +
+              "        </a>\n" +
+              "        <div class=\"lb-overlay\" id=\"image-13\" >\n" +
+              "          <a href=\"#\" >\n" +
+              "          <img src=\"images/full/13.jpg\" alt=\"image13\" href=\"#\"/>\n" +
+              "          </a>\n" +
+              "          <div >\n" +
+              "           <h3>bal·le·ri·na <span>/ˌDVWA靶场/</span></h3>\n" +
+              "           <a href='http://localhost/DVWA' target='_blank'><p>点击这里进入靶场←</p></a>\n" +
+              "           <b>DVWA靶场：四种模式，十个模块，全面靶机</b>\n" +
+              "          </div>\n" +
+              "        </div>\n" +
+              "        </a>\n" +
+              "      </li>"+
+              " <li>\n" +
+              "        <a href=\"#image-12\">\n" +
+              "          <img src=\"images/thumbs/12.jpg\" alt=\"image12\">\n" +
+              "          <span>pikachu靶场</span>\n" +
+              "        </a>\n" +
+              "        <div class=\"lb-overlay\" id=\"image-12\" >\n" +
+              "          <a href=\"#\" >\n" +
+              "          <img src=\"images/full/12.jpg\" alt=\"image12\" href=\"#\"/>\n" +
+              "          </a>\n" +
+              "          <div >\n" +
+              "           <h3>bal·le·ri·na <span>/pikachu靶场/</span></h3>\n" +
+              "           <a href='http://localhost/pikachu' target='_blank'><p>点击这里进入靶场←</p></a>\n" +
+              "           <b>pikachu靶场:十五个模块，全面靶机，附带Xss平台</b>\n" +
+              "          </div>\n" +
+              "        </div>\n" +
+              "        </a>\n" +
+              "      </li>"+
+              " <li>\n" +
+              "        <a href=\"#image-11\">\n" +
+              "          <img src=\"images/thumbs/11.jpg\" alt=\"image11\">\n" +
+              "          <span>mutillidae靶场</span>\n" +
+              "        </a>\n" +
+              "        <div class=\"lb-overlay\" id=\"image-11\" >\n" +
+              "          <a href=\"#\" >\n" +
+              "          <img src=\"images/full/11.jpg\" alt=\"image11\" href=\"#\"/>\n" +
+              "          </a>\n" +
+              "          <div >\n" +
+              "           <h3>bal·le·ri·na <span>/mutillidae靶场/</span></h3>\n" +
+              "           <a href='http://127.0.0.1/mutillidae' target='_blank'><p>点击这里进入靶场←</p></a>\n" +
+              "           <b>mutillidae靶场: 国外全面靶机</b>\n" +
+              "          </div>\n" +
+              "        </div>\n" +
+              "        </a>\n" +
+              "      </li>"+
+              " <li>\n"
+          )
+      })
+      $(function () {
+          let title = '<%= title %>';
+          let status_code = '<%=res.statusCode %>';
+          $("title").html(title)
+          if(status_code==='200'){
+              $("#page_h2").html('Welcome To Beauty Country')
+              $('.lead').html("这里只有图片，靶机请根据导航栏进入")
+              $("#colude_page").load('./index');
+          }else {
+              $('#page_h2').html('w(ﾟДﾟ)=>'+status_code)
+              $('.lead').html("打开的姿势不太对...<br/>切换到主页开始欣赏美景吧!")
+          }
+      })
+  </script>
+</html>
